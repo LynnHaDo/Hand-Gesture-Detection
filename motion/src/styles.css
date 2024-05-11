@@ -1,0 +1,56 @@
+html {
+    font-family: "Poppins", sans-serif;
+    font-style: normal
+}
+
+h1 {
+    font-weight: 700;
+}
+
+video {
+  display: block;
+  height: 360px;
+  margin-top: 15px;
+}
+
+section {
+    padding: 30px;
+  opacity: 1;
+  transition: opacity 500ms ease-in-out;
+  margin: 30px auto;
+}
+
+.invisible {
+  opacity: 0.2;
+}
+
+.removed {
+  display: none;
+}
+
+.videoView p {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #007f8b;
+  color: #fff;
+  border: 1px dashed rgba(255, 255, 255, 0.7);
+  z-index: 2;
+  margin: 0;
+}
+
+.highlighter {
+  background: rgba(0, 255, 0, 0.25);
+  border: 1px dashed #fff;
+  z-index: 1;
+  position: absolute;
+}
+
+canvas {
+  pointer-events: none;
+}
+
+.output {
+  display: none;
+  width: 100%;
+  font-size: calc(8px + 1.2vw);
+}

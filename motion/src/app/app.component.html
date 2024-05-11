@@ -1,0 +1,20 @@
+<section id="demo" class="invisible" #demo>
+  <h1>Gesture Detection</h1>
+  <div id="liveView" class="videoView">
+    <button id="enableButton" class="btn btn-primary" #enableButton>
+      <span></span>
+      <span>{{ btnContent }}</span>
+    </button>
+    <div style = "position: relative">
+      <video id="webcam" autoplay playsinline #webcam></video>
+      <canvas
+        class="output_canvas"
+        id="outputCanvas"
+        width="1280" height="720" 
+        style="position: absolute; left: 0px; top: 0px;"
+        #outputCanvas
+      ></canvas>
+      <p id="output" class="output" #output></p>
+    </div>
+  </div>
+</section>
